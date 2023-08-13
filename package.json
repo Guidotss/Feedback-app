@@ -1,0 +1,36 @@
+{
+  "name": "feedback-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "open-browser": "start http://localhost:3000",
+    "dev-browser": "yarn run open-browser && yarn run dev"
+  },
+  "dependencies": {
+    "@types/node": "17.0.29",
+    "@types/react": "18.2.6",
+    "@types/react-dom": "18.2.4",
+    "@types/uuid": "^9.0.2",
+    "animate.css": "^4.1.1",
+    "autoprefixer": "10.4.14",
+    "eslint": "8.41.0",
+    "eslint-config-next": "13.4.3",
+    "mongoose": "^7.2.1",
+    "next": "13.4.12",
+    "postcss": "8.4.23",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.43.9",
+    "sharp": "^0.32.4",
+    "tailwindcss": "3.3.2",
+    "typescript": "5.0.4",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.11.97"
+  }
+}
