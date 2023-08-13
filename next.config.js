@@ -5,9 +5,7 @@ const nextConfig = {
         config.experiments = { ...config.experiments, topLevelAwait: true };
         return config;
     },
-    env: { 
-        API_URL: process.env.API_URL,
-    }
+    env: {}
   }
   
   module.exports = nextConfig
